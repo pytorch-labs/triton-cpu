@@ -1,6 +1,5 @@
 from triton.backends.driver import CPUDriverBase
 
-
 # ------------------------
 # Utils
 # ------------------------
