@@ -46,7 +46,7 @@ jobs:
       - name: Detect post-submit changed files
         id: detect-change
         if: github.event_name == 'push'
-        uses: tj-actions/changed-files@v44
+        uses: tj-actions/changed-files@v46
         with:
           # Monitor hash or version files in the cmake/ directory for changes.
           files: |
